@@ -1,0 +1,30 @@
+16-06-2005: release 1.4
+*	Fixed major bugs, segfaults, etc.
+*	Code has been cleaned.
+*	It is no longer necessary to have both xine and mplayer installed (just one is required).
+*	Improved mplayer and xine management (video/audio discover, deinterlace methods, etc).
+*	Small improvements here and there
+*****************************************
+10-01-2004: release 1.3
+*	Re-organized config-file (lost compatibility with previous versions);
+*	Moved 'Modify Channels' submenu to 'Functions' menu;
+*	Added 'Load Channel File' and 'Import Channel File' to 'Functions' menu;
+*	Enabled 'Movies Directory' submenu;
+*	Added support for new dunetools with new firmware files (and new formats)
+	(see http://www.paranoyaxc.de/dune/dirlist.html);
+*	Fixed lots of bugs / segfaults;
+*	Small improvements here and there.
+******************************************
+24-12-2003: release 1.2
+*	Re-organized config-file (lost compatibility with previous versions);
+*	Nicer interface graphics;
+*	Added menues support;
+*	Added 'Preferences' menu with 'Channels Options' and 'Modify Channels' submenues;
+*	Added 'Functions' menu with 'Quit' submenu;
+*	Added 'Help' menu with 'About' submenu;
+*	Added channel-scan functions;
+*	Added channels-management functions;
+*	Added channel-file management functions;
+*	Fixed lots of bugs / segfaults;
+*	Re-written large part of the code (it was really ugly! :));
+*	Small improvements here and there.

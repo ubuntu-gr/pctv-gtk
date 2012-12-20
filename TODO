@@ -1,0 +1,7 @@
+*	 Improve 'Modify Channels' Layout
+*	Scheduled recording system
+*	Selectable recording format (mpeg, avi, divx, ...)
+*	Conversion system (using ffmpeg, mencoder, ...)
+*	Use dunelib instead of duneinit / dunerec
+*	Gnome-2 menues integration?
+*	Your requests? :)
