@@ -467,7 +467,9 @@ gchar *get_format_options (void) {
 		boja_popup ((gchar *[]) { "Error retreiving dunerec -t formats, using defaults..", NULL } , NULL, NULL);
 		strcpy (formats, "dvd dvdlong dvd5mbit svcd vcd svcd2 vcd2");
 	} else {
-		strcpy (tmp, strstr (line, "<") + 1); strcpy (line, (gchar *) strtok (tmp, ">")); 
+		printf ("The dunerec line is: %s\n", line); // DEBUG
+		strcpy (tmp, strstr (line, "<") + 1);
+		strcpy (line, (gchar *) strtok (tmp, ">"));
 		gchar *token = (gchar *) strtok (line, "|");
 		while (token != NULL) {
 			strcat (formats, token); strcat (formats, " "); token = (gchar *) strtok (NULL, "|");
