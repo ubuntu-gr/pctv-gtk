@@ -463,7 +463,8 @@ gchar *get_format_options (void) {
 		if (strstr (line, "-t") != NULL) break; memset (line, 0, LINE_LENGTH);
 	}
 	pclose (stream);
-	if (line == NULL) {
+	if (line == NULL || *line == '\0') {
+		puts ("The dunerec executable is not available or there is no compatible PCTV card installed.\n"); // DEBUG
 		boja_popup ((gchar *[]) { "Error retreiving dunerec -t formats, using defaults..", NULL } , NULL, NULL);
 		strcpy (formats, "dvd dvdlong dvd5mbit svcd vcd svcd2 vcd2");
 	} else {
